@@ -3,10 +3,10 @@ name: Node.js CI
 on:
   push:
     branches:
-      - master # Runs the CI pipeline on pushes to the master branch
+      - main # Runs the CI pipeline on pushes to the master branch
   pull_request:
     branches:
-      - master # Runs the CI pipeline for PRs to master
+      - main # Runs the CI pipeline for PRs to master
 
 jobs:
   build:
